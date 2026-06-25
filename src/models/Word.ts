@@ -1,6 +1,6 @@
 class Word {
   word: string;
-  audioUrl: string;
+  audioUrl?: string;
   definitions: [
     {
       definition: string;
